@@ -1,0 +1,6 @@
+To install this module, install Dist::Zilla
+ cpanm Dist::Zilla
+
+Then run
+ dzil install
+within this directory.
