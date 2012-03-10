@@ -10,11 +10,9 @@ Tests we scrape data correctly.
 
 =cut
 
-use 5.010;
 use strict;
 use warnings;
 use Test::More;
-use Data::Dumper qw/Dumper/;
 
 use constant SEARCH_TERM => 'pasta';
 
@@ -60,6 +58,5 @@ SKIP: {
                    $article, "$field exists for recipe");
     }
 };
-#show $article;
 
 done_testing();
